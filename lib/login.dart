@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projects_app/dashboard.dart';
 
 class LoginPage extends StatelessWidget {
   
@@ -77,7 +78,10 @@ class LoginPage extends StatelessWidget {
                     ),
 
                     child: MaterialButton(
-                      onPressed:(){},
+                      onPressed:()
+                      {
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>DashBoard()));
+                      },
                       minWidth: double.infinity,
                       height: 60,
                       color: Color(0xff0095FF),
