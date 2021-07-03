@@ -22,8 +22,8 @@ class DashBoard extends StatelessWidget {
           body: TabBarView(
             children: [
               
-              Lists(),
               ListTwo(),
+              Lists(),
             ],
           ),
         ),
