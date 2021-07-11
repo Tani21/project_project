@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'project_details.dart';
 
 class SignUpPage extends StatelessWidget {
   
@@ -73,7 +74,9 @@ class SignUpPage extends StatelessWidget {
                     ),
 
                     child: MaterialButton(
-                      onPressed:(){},
+                      onPressed:(){
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>ProjectDetails()));
+                      },
                       minWidth: double.infinity,
                       height: 60,
                       color: Color(0xff0095FF),

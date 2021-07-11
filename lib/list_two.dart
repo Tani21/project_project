@@ -1,11 +1,34 @@
 import 'package:flutter/material.dart';
 
 class ListTwo extends StatelessWidget {
-  const ListTwo({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return  Card(
+   return Scaffold(
+      body:
+      SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            CompletedClass(),
+            SizedBox(height:20),
+            CompletedClass(),
+            SizedBox(height:20),
+            CompletedClass(),
+          ],
+        ),
+      ), 
+      
+    );
+    
+  }
+}
+
+class CompletedClass extends StatelessWidget {
+  const CompletedClass({ Key? key }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
       
         child: Column(
           
@@ -466,6 +489,5 @@ SizedBox(height:15),
           ],
         ),
       );
-    
   }
 }
