@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'project_details.dart';
+import 'personal_details.dart';
 
 class SignUpPage extends StatelessWidget {
   

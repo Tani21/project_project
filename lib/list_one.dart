@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projects_app/project_details.dart';
 
 class Lists extends StatelessWidget {
 
@@ -211,7 +212,9 @@ class CardsYetStart extends StatelessWidget {
                         ),
 
                         child: MaterialButton(
-                          onPressed:(){},
+                          onPressed:(){
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
+                          },
                           //minWidth: double.infinity,
                           height: 6,
                           color: Color(0xff0095FF),
@@ -510,7 +513,9 @@ class CardsOnGoing extends StatelessWidget {
                         ),
 
                         child: MaterialButton(
-                          onPressed:(){},
+                          onPressed:(){
+                             Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
+                          },
                           //minWidth: double.infinity,
                           height: 6,
                           color: Color(0xff0095FF),
