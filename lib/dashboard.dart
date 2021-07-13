@@ -25,6 +25,7 @@ class DashBoard extends StatelessWidget {
                   ],
                 ),
                 title: Text('Dashboard'),
+                centerTitle: true,
               ),
               body: TabBarView(
                 children: [

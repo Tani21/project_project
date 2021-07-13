@@ -53,17 +53,17 @@ class MainDrawer extends StatelessWidget{
             ),
           ),
 
-          ListTile(
-            leading: Icon(Icons.person),
-            title:Text('Project Details', style: TextStyle(fontSize: 18,
-            ),
-            ),
-            onTap: () {
-              Navigator.of(context).pop();
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
-              //Navigator.of(context).pushNamed(DashBoard.routeName);
-            },
-          ),
+          // ListTile(
+          //   leading: Icon(Icons.person),
+          //   title:Text('Project Details', style: TextStyle(fontSize: 18,
+          //   ),
+          //   ),
+          //   onTap: () {
+          //     Navigator.of(context).pop();
+          //     Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
+          //     //Navigator.of(context).pushNamed(DashBoard.routeName);
+          //   },
+          // ),
 
           ListTile(
             leading: Icon(Icons.book),

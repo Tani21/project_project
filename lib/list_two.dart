@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projects_app/feedback.dart';
 import 'package:projects_app/project_details.dart';
 
 class ListTwo extends StatelessWidget {
@@ -323,7 +324,9 @@ class CompletedClass extends StatelessWidget {
                         ),
 
                         child: MaterialButton(
-                          onPressed:(){},
+                          onPressed:(){
+                            Navigator.push(context, MaterialPageRoute(builder: (context)=>FeedbackNew()));
+                          },
                           //minWidth: double.infinity,
                           height: 6,
                           color: Color(0xff0095FF),

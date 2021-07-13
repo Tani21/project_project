@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:projects_app/drawer.dart';
-import 'package:projects_app/project_details.dart';
+//import 'package:projects_app/project_details.dart';
 //import 'package:image_picker/image_picker.dart';
 //import 'dart:io';
 
@@ -16,8 +16,6 @@ class PersonalDetails extends StatelessWidget {
     return ProjectDetails();
   }
 }
-
-
 
 
 class ProjectDetails extends StatefulWidget {
