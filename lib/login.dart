@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:projects_app/mentor_personal_details.dart';
 //import 'package:projects_app/dashboard.dart';
-import 'package:projects_app/personal_details.dart';
+//import 'package:projects_app/personal_details.dart';
 
 class LoginPage extends StatelessWidget {
   

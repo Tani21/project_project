@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:projects_app/list_two.dart';
+//import 'package:projects_app/list_two.dart';
 import 'package:projects_app/mentor_list_partthree.dart';
+import 'package:projects_app/mentor_list_parttwo.dart';
 import 'package:projects_app/mentor_lists.dart';
-import 'list_one.dart';
+//import 'list_one.dart';
 //import 'drawer.dart';
 
 class MentorProjects extends StatelessWidget {
@@ -33,7 +34,7 @@ class MentorProjects extends StatelessWidget {
               body: TabBarView(
                 children: [
                   MentorLists(),
-                  Lists(),
+                  MentorListPartTwo(),
                   MentorListThree(),
                 ],
               ),

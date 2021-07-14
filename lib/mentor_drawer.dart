@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:projects_app/Mentor_projects.dart';
+//import 'package:projects_app/Mentor_projects.dart';
+import 'package:projects_app/add_project.dart';
 //import 'package:projects_app/dashboard.dart';
 import 'package:projects_app/main.dart';
+import 'package:projects_app/mentor_list_parttwo.dart';
+import 'package:projects_app/mentor_personal_details.dart';
 //import 'package:projects_app/project_details.dart';
 
 
@@ -85,7 +89,7 @@ class MentorDrawer extends StatelessWidget{
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>MentorProjects()));
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>NewAddProject()));
               //Navigator.of(context).pushNamed(DashBoard.routeName);
             },
           ),

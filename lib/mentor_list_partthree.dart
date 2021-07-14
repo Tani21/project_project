@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:projects_app/feedback.dart';
 import 'package:projects_app/project_details.dart';
+import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
 class MentorListThree extends StatelessWidget {
 
@@ -66,7 +67,7 @@ class MentorCompletedClassThree extends StatelessWidget {
             Divider(
               color: Colors.black
             ),
-
+    
             Row(
               children: <Widget>[
                 Container(
@@ -90,7 +91,7 @@ class MentorCompletedClassThree extends StatelessWidget {
                    ],
                  ),
                 ),
-
+    
                 SizedBox(width: 50),
                 Container(
                   
@@ -116,9 +117,9 @@ class MentorCompletedClassThree extends StatelessWidget {
                           ),),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Project Duration:    ',
@@ -136,9 +137,9 @@ class MentorCompletedClassThree extends StatelessWidget {
                           ),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Status:    ',
@@ -161,18 +162,36 @@ class MentorCompletedClassThree extends StatelessWidget {
                 ),
               ],
             ),
-
-                SizedBox(height:15),
-
+    
+                
+    
+                RatingBar.builder(
+     initialRating: 3,
+     minRating: 1,
+     direction: Axis.horizontal,
+     allowHalfRating: true,
+     itemCount: 5,
+     itemPadding: EdgeInsets.symmetric(horizontal: 4.0),
+     itemBuilder: (context, _) => Icon(
+     Icons.star,
+     color: Colors.amber,
+     ),
+     onRatingUpdate: (rating) {
+     print(rating);
+     },
+    ),
+    
+                 SizedBox(height:15),
+    
                 feedbackReturn(context),
-
+    
         //         Row(
         //           mainAxisAlignment: MainAxisAlignment.spaceAround,
         //           crossAxisAlignment: CrossAxisAlignment.start,
         //           children: <Widget>[
                   
         //             SizedBox(width:4, height:4),
-
+    
         //             TextButton(
         //                   onPressed: (){
         //                     Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
@@ -181,9 +200,9 @@ class MentorCompletedClassThree extends StatelessWidget {
         //                 style: TextStyle(
         //                   fontSize: 15,
         //                 ),),),
-
+    
         //                 SizedBox(width: 25),
-
+    
         //             TextButton(
         //               onPressed: (){}, 
         //             child: Text('View all feedbacks',
@@ -197,7 +216,7 @@ class MentorCompletedClassThree extends StatelessWidget {
                    
         //           ],
         // ),
-
+    
           ],
         ),
       );

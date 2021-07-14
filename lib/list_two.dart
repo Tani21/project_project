@@ -57,7 +57,7 @@ class CompletedClass extends StatelessWidget {
             Divider(
               color: Colors.black
             ),
-
+    
             Row(
               children: <Widget>[
                 Container(
@@ -81,7 +81,7 @@ class CompletedClass extends StatelessWidget {
                    ],
                  ),
                 ),
-
+    
                 SizedBox(width: 50),
                 Container(
                   
@@ -107,9 +107,9 @@ class CompletedClass extends StatelessWidget {
                           ),),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Project Duration:    ',
@@ -127,9 +127,9 @@ class CompletedClass extends StatelessWidget {
                           ),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Status:    ',
@@ -148,20 +148,20 @@ class CompletedClass extends StatelessWidget {
                         ],
                       ),
                   
-
+    
                     ],
                   ),
-
+    
               
-
+    
                 ),
-
+    
                 
-
-
+    
+    
               ],
             ),
-
+    
         //     Column(
         //       mainAxisAlignment: MainAxisAlignment.center,
               
@@ -171,7 +171,7 @@ class CompletedClass extends StatelessWidget {
         //         Row(
         //           crossAxisAlignment: CrossAxisAlignment.start,
         //           children: <Widget>[
-
+    
         //             SizedBox(width:4, height:4),
                     
         //             Container(
@@ -186,7 +186,7 @@ class CompletedClass extends StatelessWidget {
         //                 right: BorderSide(color: Colors.black),
         //               ),
         //             ),
-
+    
         //             child: Text('Data Science',
         //               style: TextStyle(
         //                 fontWeight: FontWeight.w600,
@@ -195,9 +195,9 @@ class CompletedClass extends StatelessWidget {
         //               ),
         //               ),
         //                 ),
-
+    
         //                  SizedBox(width: 4, height: 5),
-
+    
         //                 Container(
         //               padding: EdgeInsets.all(2),
         //               decoration: 
@@ -210,7 +210,7 @@ class CompletedClass extends StatelessWidget {
         //                 right: BorderSide(color: Colors.black),
         //               ),
         //             ),
-
+    
         //             child: Text('User Research',
         //               style: TextStyle(
         //                 fontWeight: FontWeight.w600,
@@ -219,9 +219,9 @@ class CompletedClass extends StatelessWidget {
         //               ),
         //               ),
         //                 ),
-
+    
         //                 SizedBox(width: 4, height: 5),
-
+    
         //                 Container(
         //               padding: EdgeInsets.all(2),
         //               decoration: 
@@ -234,7 +234,7 @@ class CompletedClass extends StatelessWidget {
         //                 right: BorderSide(color: Colors.black),
         //               ),
         //             ),
-
+    
         //             child: Text('Remote Work',
         //               style: TextStyle(
         //                 fontWeight: FontWeight.w600,
@@ -243,10 +243,10 @@ class CompletedClass extends StatelessWidget {
         //               ),
         //               ),
         //                 ),
-
+    
                         
                       
-
+    
         // Container(
         //         //padding: EdgeInsets.only(top: 15, left: 3),
         //             decoration: 
@@ -259,7 +259,7 @@ class CompletedClass extends StatelessWidget {
         //                 right: BorderSide(color: Colors.black),
         //               ),
         //             ),
-
+    
         //             child: MaterialButton(
         //               onPressed:(){},
         //               //minWidth: double.infinity,
@@ -270,7 +270,7 @@ class CompletedClass extends StatelessWidget {
         //                 borderRadius: BorderRadius.circular(2),
                       
         //               ),
-
+    
         //               child: Text('Send Feedback',
         //               style: TextStyle(
         //                 fontWeight: FontWeight.w600,
@@ -281,8 +281,8 @@ class CompletedClass extends StatelessWidget {
                     
         //             ),
         //       ),
-
-
+    
+    
         //           ],
         //         ),
         //       ],
@@ -302,8 +302,8 @@ class CompletedClass extends StatelessWidget {
         //         const SizedBox(width: 8),
         //       ],
         //     ),
-
-
+    
+    
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -322,7 +322,7 @@ class CompletedClass extends StatelessWidget {
                             right: BorderSide(color: Colors.black),
                           ),
                         ),
-
+    
                         child: MaterialButton(
                           onPressed:(){
                             Navigator.push(context, MaterialPageRoute(builder: (context)=>FeedbackNew()));
@@ -335,7 +335,7 @@ class CompletedClass extends StatelessWidget {
                             borderRadius: BorderRadius.circular(2),
                           
                           ),
-
+    
                           child: Text('Send Feedback',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
@@ -346,10 +346,10 @@ class CompletedClass extends StatelessWidget {
                         
                         ),
                   ),
-
-
+    
+    
                   SizedBox(width: 30),
-
+    
                    Container(
                     //padding: EdgeInsets.only(top: 15, left: 3),
                     padding: EdgeInsets.fromLTRB(5.5, 3, 5.5, 3),
@@ -364,7 +364,7 @@ class CompletedClass extends StatelessWidget {
                             right: BorderSide(color: Colors.black),
                           ),
                         ),
-
+    
                         child: MaterialButton(
                           onPressed:(){
                              Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
@@ -377,7 +377,7 @@ class CompletedClass extends StatelessWidget {
                             borderRadius: BorderRadius.circular(2),
                           
                           ),
-
+    
                           child: Text('Project Info',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
@@ -391,8 +391,8 @@ class CompletedClass extends StatelessWidget {
               ],
             ),
         
-
-
+    
+    
         // Row(
         //       mainAxisAlignment: MainAxisAlignment.start,
         //       children: <Widget>[
@@ -408,16 +408,16 @@ class CompletedClass extends StatelessWidget {
         //         const SizedBox(width: 8),
         //       ],
         //     ),
-
-
-
-SizedBox(height:15),
-
-
+    
+    
+    
+    SizedBox(height:15),
+    
+    
         Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-
+    
                     SizedBox(width:4, height:4),
                     
                     Container(
@@ -432,7 +432,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('Data Science',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -441,9 +441,9 @@ SizedBox(height:15),
                       ),
                       ),
                         ),
-
+    
                          SizedBox(width: 4, height: 5),
-
+    
                         Container(
                       padding: EdgeInsets.all(2),
                       decoration: 
@@ -456,7 +456,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('User Research',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -465,9 +465,9 @@ SizedBox(height:15),
                       ),
                       ),
                         ),
-
+    
                         SizedBox(width: 4, height: 5),
-
+    
                         Container(
                       padding: EdgeInsets.all(2),
                       decoration: 
@@ -480,7 +480,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('Remote Work',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -491,7 +491,7 @@ SizedBox(height:15),
                         ),
                   ],
         ),
-
+    
           ],
         ),
       );

@@ -57,7 +57,7 @@ class CardsYetStart extends StatelessWidget {
             Divider(
               color: Colors.black
             ),
-
+    
             Row(
               children: <Widget>[
                 Container(
@@ -81,7 +81,7 @@ class CardsYetStart extends StatelessWidget {
                    ],
                  ),
                 ),
-
+    
                 SizedBox(width: 50),
                 Container(
                   
@@ -107,9 +107,9 @@ class CardsYetStart extends StatelessWidget {
                           ),),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Project Duration:    ',
@@ -127,9 +127,9 @@ class CardsYetStart extends StatelessWidget {
                           ),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Status:    ',
@@ -152,7 +152,7 @@ class CardsYetStart extends StatelessWidget {
                 ),
               ],
             ),
-
+    
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -171,7 +171,7 @@ class CardsYetStart extends StatelessWidget {
                             right: BorderSide(color: Colors.black),
                           ),
                         ),
-
+    
                         child: MaterialButton(
                           onPressed:(){
                             Navigator.push(context, MaterialPageRoute(builder: (context)=>FeedbackNew()));
@@ -184,7 +184,7 @@ class CardsYetStart extends StatelessWidget {
                             borderRadius: BorderRadius.circular(2),
                           
                           ),
-
+    
                           child: Text('Send Feedback',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
@@ -195,10 +195,10 @@ class CardsYetStart extends StatelessWidget {
                         
                         ),
                   ),
-
-
+    
+    
                   SizedBox(width: 30),
-
+    
                    Container(
                     //padding: EdgeInsets.only(top: 15, left: 3),
                     padding: EdgeInsets.fromLTRB(5.5, 3, 5.5, 3),
@@ -213,7 +213,7 @@ class CardsYetStart extends StatelessWidget {
                             right: BorderSide(color: Colors.black),
                           ),
                         ),
-
+    
                         child: MaterialButton(
                           onPressed:(){
                             Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
@@ -226,7 +226,7 @@ class CardsYetStart extends StatelessWidget {
                             borderRadius: BorderRadius.circular(2),
                           
                           ),
-
+    
                           child: Text('Project Info',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
@@ -239,14 +239,14 @@ class CardsYetStart extends StatelessWidget {
                   ),
               ],
             ),
-
-SizedBox(height:15),
-
-
+    
+    SizedBox(height:15),
+    
+    
         Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-
+    
                     SizedBox(width:4, height:4),
                     
                     Container(
@@ -261,7 +261,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('Data Science',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -270,9 +270,9 @@ SizedBox(height:15),
                       ),
                       ),
                         ),
-
+    
                          SizedBox(width: 4, height: 5),
-
+    
                         Container(
                       padding: EdgeInsets.all(2),
                       decoration: 
@@ -285,7 +285,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('User Research',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -294,9 +294,9 @@ SizedBox(height:15),
                       ),
                       ),
                         ),
-
+    
                         SizedBox(width: 4, height: 5),
-
+    
                         Container(
                       padding: EdgeInsets.all(2),
                       decoration: 
@@ -309,7 +309,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('Remote Work',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -320,7 +320,7 @@ SizedBox(height:15),
                         ),
                   ],
         ),
-
+    
           ],
         ),
       );
@@ -360,7 +360,7 @@ class CardsOnGoing extends StatelessWidget {
             Divider(
               color: Colors.black
             ),
-
+    
             Row(
               children: <Widget>[
                 Container(
@@ -384,7 +384,7 @@ class CardsOnGoing extends StatelessWidget {
                    ],
                  ),
                 ),
-
+    
                 SizedBox(width: 50),
                 Container(
                   
@@ -410,9 +410,9 @@ class CardsOnGoing extends StatelessWidget {
                           ),),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Project Duration:    ',
@@ -430,9 +430,9 @@ class CardsOnGoing extends StatelessWidget {
                           ),
                         ],
                       ),
-
+    
                       SizedBox(height: 3),
-
+    
                       Row(
                         children: <Widget>[
                           Text('Status:    ',
@@ -455,7 +455,7 @@ class CardsOnGoing extends StatelessWidget {
                 ),
               ],
             ),
-
+    
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -474,7 +474,7 @@ class CardsOnGoing extends StatelessWidget {
                             right: BorderSide(color: Colors.black),
                           ),
                         ),
-
+    
                         child: MaterialButton(
                           onPressed:(){
                             Navigator.push(context, MaterialPageRoute(builder: (context)=>FeedbackNew()));
@@ -487,7 +487,7 @@ class CardsOnGoing extends StatelessWidget {
                             borderRadius: BorderRadius.circular(2),
                           
                           ),
-
+    
                           child: Text('Send Feedback',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
@@ -498,10 +498,10 @@ class CardsOnGoing extends StatelessWidget {
                         
                         ),
                   ),
-
-
+    
+    
                   SizedBox(width: 30),
-
+    
                    Container(
                     //padding: EdgeInsets.only(top: 15, left: 3),
                     padding: EdgeInsets.fromLTRB(5.5, 3, 5.5, 3),
@@ -516,7 +516,7 @@ class CardsOnGoing extends StatelessWidget {
                             right: BorderSide(color: Colors.black),
                           ),
                         ),
-
+    
                         child: MaterialButton(
                           onPressed:(){
                              Navigator.push(context, MaterialPageRoute(builder: (context)=>NewPage()));
@@ -529,7 +529,7 @@ class CardsOnGoing extends StatelessWidget {
                             borderRadius: BorderRadius.circular(2),
                           
                           ),
-
+    
                           child: Text('Project Info',
                           style: TextStyle(
                             fontWeight: FontWeight.w600,
@@ -542,14 +542,14 @@ class CardsOnGoing extends StatelessWidget {
                   ),
               ],
             ),
-
-SizedBox(height:15),
-
-
+    
+    SizedBox(height:15),
+    
+    
         Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
-
+    
                     SizedBox(width:4, height:4),
                     
                     Container(
@@ -564,7 +564,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('Data Science',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -573,9 +573,9 @@ SizedBox(height:15),
                       ),
                       ),
                         ),
-
+    
                          SizedBox(width: 4, height: 5),
-
+    
                         Container(
                       padding: EdgeInsets.all(2),
                       decoration: 
@@ -588,7 +588,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('User Research',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -597,9 +597,9 @@ SizedBox(height:15),
                       ),
                       ),
                         ),
-
+    
                         SizedBox(width: 4, height: 5),
-
+    
                         Container(
                       padding: EdgeInsets.all(2),
                       decoration: 
@@ -612,7 +612,7 @@ SizedBox(height:15),
                         right: BorderSide(color: Colors.black),
                       ),
                     ),
-
+    
                     child: Text('Remote Work',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
@@ -623,7 +623,7 @@ SizedBox(height:15),
                         ),
                   ],
         ),
-
+    
           ],
         ),
       );
