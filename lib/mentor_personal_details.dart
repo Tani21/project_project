@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:projects_app/drawer.dart';
+//import 'package:projects_app/drawer.dart';
+import 'package:projects_app/mentor_drawer.dart';
 import 'package:projects_app/skills.dart';
 //import 'package:projects_app/project_details.dart';
 //import 'package:image_picker/image_picker.dart';
@@ -9,22 +10,22 @@ import 'package:projects_app/skills.dart';
 //ImagePicker _picker = ImagePicker(); 
 //PickedFile? _imageFile ;
 
-class PersonalDetails extends StatelessWidget {
-  const PersonalDetails({ Key? key }) : super(key: key);
+class MentorPersonalDetails extends StatelessWidget {
+  const MentorPersonalDetails({ Key? key }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return ProjectDetails();
+    return MentorProjectDetails();
   }
 }
 
 
-class ProjectDetails extends StatefulWidget {
+class MentorProjectDetails extends StatefulWidget {
   @override
   _ProjectDetailsState createState() => _ProjectDetailsState();
 }
 
-class _ProjectDetailsState extends State<ProjectDetails> {
+class _ProjectDetailsState extends State<MentorProjectDetails> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -38,7 +39,7 @@ class _ProjectDetailsState extends State<ProjectDetails> {
         centerTitle: true,
       ),
 
-      drawer: MainDrawer(),
+      drawer: MentorDrawer(),
 
       body: SingleChildScrollView(
         child: Container(
@@ -452,4 +453,3 @@ Widget imageProfile(BuildContext context)
 
 
 }
-

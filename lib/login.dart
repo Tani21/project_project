@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:projects_app/dashboard.dart';
+import 'package:projects_app/mentor_personal_details.dart';
+//import 'package:projects_app/dashboard.dart';
+import 'package:projects_app/personal_details.dart';
 
 class LoginPage extends StatelessWidget {
   
@@ -80,7 +82,7 @@ class LoginPage extends StatelessWidget {
                     child: MaterialButton(
                       onPressed:()
                       {
-                        Navigator.push(context, MaterialPageRoute(builder: (context)=>DashBoard()));
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=>MentorPersonalDetails()));
                       },
                       minWidth: double.infinity,
                       height: 60,

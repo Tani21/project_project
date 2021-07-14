@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:projects_app/dashboard.dart';
+import 'package:projects_app/Mentor_projects.dart';
+//import 'package:projects_app/dashboard.dart';
 import 'package:projects_app/main.dart';
 //import 'package:projects_app/project_details.dart';
 
 
-class MainDrawer extends StatelessWidget{
+class MentorDrawer extends StatelessWidget{
   @override 
   Widget build(BuildContext context) {
     return Drawer(
@@ -72,7 +73,19 @@ class MainDrawer extends StatelessWidget{
             ),
             onTap: () {
               Navigator.of(context).pop();
-              Navigator.push(context, MaterialPageRoute(builder: (context)=>DashBoard()));
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>MentorProjects()));
+              //Navigator.of(context).pushNamed(DashBoard.routeName);
+            },
+          ),
+
+           ListTile(
+            leading: Icon(Icons.book),
+            title:Text('Add project', style: TextStyle(fontSize: 18,
+            ),
+            ),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.push(context, MaterialPageRoute(builder: (context)=>MentorProjects()));
               //Navigator.of(context).pushNamed(DashBoard.routeName);
             },
           ),
@@ -95,5 +108,4 @@ class MainDrawer extends StatelessWidget{
     );
   }
 }
-
 

@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:projects_app/list_two.dart';
+import 'package:projects_app/mentor_list_partthree.dart';
+import 'package:projects_app/mentor_lists.dart';
 import 'list_one.dart';
 //import 'drawer.dart';
 
-class DashBoard extends StatelessWidget {
+class MentorProjects extends StatelessWidget {
   //static const routeName = '/dashboard-screen';
 
   @override
@@ -15,12 +17,13 @@ class DashBoard extends StatelessWidget {
       body: SafeArea(
         child: DefaultTabController(
           
-            length: 2,
+            length: 3,
             child: Scaffold(
               appBar: AppBar(
                 bottom: TabBar(
                   tabs: [
-                    Tab(text: 'Active Projects'),
+                    Tab(text: 'Posted Projects',),
+                    Tab(text: 'Running Projects'),
                     Tab(text: 'Completed Projects'),
                   ],
                 ),
@@ -29,9 +32,9 @@ class DashBoard extends StatelessWidget {
               ),
               body: TabBarView(
                 children: [
-                  
+                  MentorLists(),
                   Lists(),
-                  ListTwo(),
+                  MentorListThree(),
                 ],
               ),
             ),
@@ -40,5 +43,3 @@ class DashBoard extends StatelessWidget {
     );
   }
 }
-
-
